@@ -1,0 +1,14 @@
+﻿@model Weather_Forecast_MVC.Models.WeatherData
+@{
+
+}
+<html>
+<head>
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <h1>Weather Forecast for @Model.name</h1>
+    <p>Temperature: @Model.main.temp &deg;C</p>
+    <p>Description: @Model.weather[0].description</p>
+</body>
+</html>
